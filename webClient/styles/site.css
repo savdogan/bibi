@@ -1,0 +1,41 @@
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+div { color: rgba(0, 0, 0, 0.870588); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; box-sizing: border-box; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px; border-radius: 2px; margin-bottom: 32px; background-color: rgb(255, 255, 255)
+}
+
+table {
+     width: 100%
+     
+     
+}
+
+table, th, td {
+   border: 1px solid black;
+}
+
+ td { 
+   padding: 10px ; 
+
+}
+
+td.mehmet {
+   padding: 3px ;
+   background-color: darkgoldenrod;
+   font-weight: bold;
+   border: 0px solid black;
+   max-block-size: 0%
+}
+
+td.ahmet {
+    padding: 4px ;
+   background-color: darkgoldenrod;
+    border: 0px solid black;
+}
+
+td.dis {
+    padding: 0px ;
+   background-color: darkgoldenrod;
+   border: 0px solid black;
+}
+
