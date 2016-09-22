@@ -20,7 +20,7 @@ var screen = [{
   controlType: "row",
   key: "row1",
   forms: [{
-    key: "form1",
+    key: "form5",
     layout: "2",
     controlType: "form",
     caption: "Müşteri Bilgileri",
@@ -33,12 +33,12 @@ var screen = [{
       list: [{ key: "23ewwej", ad: "Savas", soyad: "Dogan", yas: "12", cinsiyet: "erkek" }, { key: "23ewwe22", ad: "Ali", soyad: "Duba", yas: "13", cinsiyet: "kadın" }, { key: "23ewwef", ad: "canan", soyad: "Yasar", yas: "21", cinsiyet: "erkek" }, { key: "23ewwe5", ad: "Aysen", soyad: "ali", yas: "33", cinsiyet: "kadın" }, { key: "23ewwe2", ad: "manyak", soyad: "kardesim", yas: "44", cinsiyet: "erkek" }, { key: "23ewwe2e", ad: "Hasan", soyad: "demand", yas: "42", cinsiyet: "kadın" }, { key: "23ewwee", ad: "Deli", soyad: "Karpuz", yas: "82", cinsiyet: "erkek" }]
     }]
   }, {
-    key: "form2",
+    key: "form4",
     layout: "2",
     controlType: "form",
     caption: "Deneme4",
     state: "closed",
-    controls: [{ key: "317", type: "text" }, { key: "318", type: "button", text: "Hadi bas canim" }, { key: "319", type: "text", defaultValue: "Canım Benim" }]
+    controls: [{ key: "317", type: "text" }, { key: "318", type: "button", text: "Hadi bas canim " }, { key: "319", type: "text", defaultValue: "Canım Benim" }]
   }, {
     key: "form3",
     layout: "2",
@@ -343,6 +343,13 @@ function addControl() {
   renderScreen('comp', screen);
   myFunction();
 }
+
+setTimeout(function () {
+  screen[0].forms[0].caption = "deli olma kardesimmmmmmm";
+  screen[0].forms[1].controls[1].text = "deli olma kardesimmmmmmm";
+  renderScreen('comp', screen);
+  console.log('yeniden render');
+}, 10000);
 
 function myFunction() {
   var d = new Date();

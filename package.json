@@ -17,7 +17,7 @@
   },
   "scripts": {
     "test": "Not implemented",
-    "bi": "babel  webClient/reactSrc --out-dir webClient/reactBin"
+    "bi": "babel  --watch webClient/reactSrc --out-dir webClient/reactBin"
   },
   "repository": {
     "type": "git",

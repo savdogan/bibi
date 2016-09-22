@@ -17,13 +17,15 @@ function resizeMyBody() {
 
 var fooSize = 2;
 
+
+
 var screen = [
   {
     controlType: "row",
     key: "row1",
     forms: [
       {
-        key: "form1",
+        key: "form5",
         layout: "2",
         controlType: "form",
         caption: "Müşteri Bilgileri",
@@ -47,14 +49,14 @@ var screen = [
         ]
       },
       {
-        key: "form2",
+        key: "form4",
         layout: "2",
         controlType: "form",
         caption: "Deneme4",
         state: "closed",
         controls: [
           { key: "317", type: "text" },
-          { key: "318", type: "button", text: "Hadi bas canim" },
+          { key: "318", type: "button", text: "Hadi bas canim " },
           { key: "319", type: "text", defaultValue: "Canım Benim" }
         ]
       },
@@ -297,6 +299,13 @@ function addControl() {
   renderScreen('comp', screen);
   myFunction();
 }
+
+setTimeout(function() {
+screen[0].forms[0].caption="deli olma kardesimmmmmmm";
+screen[0].forms[1].controls[1].text="deli olma kardesimmmmmmm";
+  renderScreen('comp', screen);
+  console.log('yeniden render');
+}, 10000);
 
 function myFunction() {
   var d = new Date();
