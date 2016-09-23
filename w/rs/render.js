@@ -1,3 +1,4 @@
+require("!style!css!./../st/site.css");
 
 
 var fooStyle = document.body.clientWidth < 600;
@@ -19,7 +20,7 @@ var fooSize = 2;
 
 
 
-var screen = [
+var screen = [ 
   {
     controlType: "row",
     key: "row1",
@@ -37,7 +38,7 @@ var screen = [
             listType: "foo",
             allColumns: ["ad", "soyad", "yas", "cinsiyet"],
             list: [
-              { key: "23ewwej", ad: "Savas", soyad: "Dogan", yas: "12", cinsiyet: "erkek" },
+              { key: "23ewwej", ad: "Mnayakkkkkkkkkkkkkkkkk", soyad: "Dogan", yas: "12", cinsiyet: "erkek" },
               { key: "23ewwe22", ad: "Ali", soyad: "Duba", yas: "13", cinsiyet: "kadın" },
               { key: "23ewwef", ad: "canan", soyad: "Yasar", yas: "21", cinsiyet: "erkek" },
               { key: "23ewwe5", ad: "Aysen", soyad: "ali", yas: "33", cinsiyet: "kadın" },
@@ -301,9 +302,11 @@ function addControl() {
 }
 
 setTimeout(function() {
-screen[0].forms[0].caption="deli olma kardesimmmmmmm";
-screen[0].forms[1].controls[1].text="deli olma kardesimmmmmmm";
+screen[0].forms[0].caption="Bana bak kardesim akıllı ollşşşşş";
+screen[0].forms[1].controls[1].text="bibi geliyor bibi";
+  myFunction();
   renderScreen('comp', screen);
+   myFunction();
   console.log('yeniden render');
 }, 10000);
 
