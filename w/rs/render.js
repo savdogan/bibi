@@ -15,6 +15,10 @@ function resizeMyBody() {
   }
 }
 
+//Burayı ozel olarak bir yere koymak gerekebilird duruma gore. 
+window.addEventListener("resize", resizeMyBody);
+
+
 
 var fooSize = 2;
 
@@ -38,7 +42,7 @@ var screen = [
             listType: "foo",
             allColumns: ["ad", "soyad", "yas", "cinsiyet"],
             list: [
-              { key: "23ewwej", ad: "Mnayakkkkkkkkkkkkkkkkk", soyad: "Dogan", yas: "12", cinsiyet: "erkek" },
+              { key: "23ewwej", ad: "Canım burada da calisiyorum", soyad: "Dogan", yas: "12", cinsiyet: "erkek" },
               { key: "23ewwe22", ad: "Ali", soyad: "Duba", yas: "13", cinsiyet: "kadın" },
               { key: "23ewwef", ad: "canan", soyad: "Yasar", yas: "21", cinsiyet: "erkek" },
               { key: "23ewwe5", ad: "Aysen", soyad: "ali", yas: "33", cinsiyet: "kadın" },

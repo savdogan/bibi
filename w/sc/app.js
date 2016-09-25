@@ -79,6 +79,9 @@
 	  }
 	}
 
+	//Burayı ozel olarak bir yere koymak gerekebilird duruma gore. 
+	window.addEventListener("resize", resizeMyBody);
+
 	var fooSize = 2;
 
 	var screen = [{
@@ -95,7 +98,7 @@
 	      type: "list",
 	      listType: "foo",
 	      allColumns: ["ad", "soyad", "yas", "cinsiyet"],
-	      list: [{ key: "23ewwej", ad: "Mnayakkkkkkkkkkkkkkkkk", soyad: "Dogan", yas: "12", cinsiyet: "erkek" }, { key: "23ewwe22", ad: "Ali", soyad: "Duba", yas: "13", cinsiyet: "kadın" }, { key: "23ewwef", ad: "canan", soyad: "Yasar", yas: "21", cinsiyet: "erkek" }, { key: "23ewwe5", ad: "Aysen", soyad: "ali", yas: "33", cinsiyet: "kadın" }, { key: "23ewwe2", ad: "manyak", soyad: "kardesim", yas: "44", cinsiyet: "erkek" }, { key: "23ewwe2e", ad: "Hasan", soyad: "demand", yas: "42", cinsiyet: "kadın" }, { key: "23ewwee", ad: "Deli", soyad: "Karpuz", yas: "82", cinsiyet: "erkek" }]
+	      list: [{ key: "23ewwej", ad: "Canım burada da calisiyorum", soyad: "Dogan", yas: "12", cinsiyet: "erkek" }, { key: "23ewwe22", ad: "Ali", soyad: "Duba", yas: "13", cinsiyet: "kadın" }, { key: "23ewwef", ad: "canan", soyad: "Yasar", yas: "21", cinsiyet: "erkek" }, { key: "23ewwe5", ad: "Aysen", soyad: "ali", yas: "33", cinsiyet: "kadın" }, { key: "23ewwe2", ad: "manyak", soyad: "kardesim", yas: "44", cinsiyet: "erkek" }, { key: "23ewwe2e", ad: "Hasan", soyad: "demand", yas: "42", cinsiyet: "kadın" }, { key: "23ewwee", ad: "Deli", soyad: "Karpuz", yas: "82", cinsiyet: "erkek" }]
 	    }]
 	  }, {
 	    key: "form4",
@@ -470,7 +473,7 @@
 
 
 	// module
-	exports.push([module.id, "body {background-color: powderblue;}\r\nh1   {color: blue;}\r\np    {color: red;}\r\ndiv { color: rgba(0, 0, 0, 0.870588); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; box-sizing: border-box; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px; border-radius: 2px; margin-bottom: 32px; background-color: rgb(255, 255, 255)\r\n}\r\n\r\ntable {\r\n     width: 100%\r\n     \r\n     \r\n}\r\n\r\ntable, th, td {\r\n   border: 1px solid black;\r\n}\r\n\r\n td { \r\n   padding: 10px ; \r\n\r\n}\r\n\r\ntd.mehmet {\r\n   padding: 3px ;\r\n   background-color: darkgoldenrod;\r\n   font-weight: bold;\r\n   border: 0px solid black;\r\n   max-block-size: 0%\r\n}\r\n\r\ntd.ahmet {\r\n    padding: 4px ;\r\n   background-color: darkgoldenrod;\r\n    border: 0px solid black;\r\n}\r\n\r\ntd.dis {\r\n    padding: 0px ;\r\n   background-color: darkgoldenrod;\r\n   border: 0px solid black;\r\n}\r\n\r\n", ""]);
+	exports.push([module.id, "body {background-color: powderblue;}\nh1   {color: blue;}\np    {color: red;}\ndiv { color: rgba(0, 0, 0, 0.870588); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; box-sizing: border-box; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px; border-radius: 2px; margin-bottom: 32px; background-color: rgb(255, 255, 255)\n}\n\ntable {\n     width: 100%\n     \n     \n}\n\ntable, th, td {\n   border: 1px solid black;\n}\n\n td { \n   padding: 10px ; \n\n}\n\ntd.mehmet {\n   padding: 3px ;\n   background-color: darkgoldenrod;\n   font-weight: bold;\n   border: 0px solid black;\n   max-block-size: 0%\n}\n\ntd.ahmet {\n    padding: 4px ;\n   background-color: darkgoldenrod;\n    border: 0px solid black;\n}\n\ntd.dis {\n    padding: 0px ;\n   background-color: darkgoldenrod;\n   border: 0px solid black;\n}\n\n", ""]);
 
 	// exports
 
