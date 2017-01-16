@@ -1,1 +1,1 @@
-require('./bear.js');
+require('./bear.js');  

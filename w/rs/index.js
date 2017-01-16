@@ -1,3 +1,6 @@
+import React from 'react';
+import {render} from 'react-dom';
+
 require("./render.js");
 require("./../sc/jsonfn.js");
 
@@ -5,7 +8,7 @@ require("./../sc/jsonfn.js");
      {
          render : function ()
          {
-             return <div>Merhaba</div>;
+             return <div>Merhassba</div>;
          }
      }
- )
+ )  
